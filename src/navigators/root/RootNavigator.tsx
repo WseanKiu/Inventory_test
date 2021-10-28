@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 // import { LoginPage } from '../../components/Pages/LoginPage';
 import { LoginPage } from '../../components/pages/Login';
 import { TodoPage } from '../../components/pages/Todo';
+import { useGlobalState } from '../../hooks/global';
 
 const ProtectedRoutes = () => {
     return (
@@ -24,11 +25,15 @@ const UnprotectedRoutes = () => (
 );
 
 const RootNavigator = (): React.ReactElement => {
-    const isLoggedIn = false;
+    const {
+        useCurrentUser: { currentUser },
+    } = useGlobalState();
+
+    // const isLoggedIn = false;
     return (
         <React.Suspense fallback={<div>Loading routes ...</div>}>
             <BrowserRouter>
-                { isLoggedIn ? <ProtectedRoutes /> : <UnprotectedRoutes />}
+                { !!currentUser ? <ProtectedRoutes /> : <UnprotectedRoutes />}
             </BrowserRouter>
         </React.Suspense>
     );

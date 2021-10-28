@@ -15,4 +15,4 @@ export const useGlobalState = (): GlobalState => {
         throw new Error(`Context not instantiated.`);
     }
     return context;
-}
+};
