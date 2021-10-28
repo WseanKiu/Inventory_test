@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots atoms/Button button 1`] = `
+Array [
+  .c0 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+<button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#1884FF",
+        "borderColor": "#017AF5",
+      }
+    }
+    type="button"
+  >
+    Primary
+  </button>,
+  .c0 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+<button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#777777",
+        "borderColor": "#777777",
+      }
+    }
+    type="button"
+  >
+    Secondary
+  </button>,
+  .c0 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+<button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#D4DCE6",
+      }
+    }
+    type="button"
+  >
+    Light
+  </button>,
+]
+`;
+
+exports[`Storyshots atoms/Button disabled 1`] = `
+.c0 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#EFF2F7",
+      "borderColor": "#D4DCE6",
+    }
+  }
+  type="button"
+>
+  Start
+</button>
+`;
+
+exports[`Storyshots atoms/Button inline 1`] = `
+Array [
+  .c1 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+.c0 {
+  display: inline-block;
+  width: 100px;
+}
+
+<div
+    className="c0"
+  >
+    <button
+      className="c1"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#1884FF",
+          "borderColor": "#017AF5",
+        }
+      }
+      type="button"
+    >
+      Primary
+    </button>
+  </div>,
+  .c1 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+.c0 {
+  display: inline-block;
+  width: 100px;
+}
+
+<div
+    className="c0"
+  >
+    <button
+      className="c1"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#777777",
+          "borderColor": "#777777",
+        }
+      }
+      type="button"
+    >
+      Secondary
+    </button>
+  </div>,
+  .c1 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+.c0 {
+  display: inline-block;
+  width: 100px;
+}
+
+<div
+    className="c0"
+  >
+    <button
+      className="c1"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D4DCE6",
+        }
+      }
+      type="button"
+    >
+      Light
+    </button>
+  </div>,
+]
+`;
+
+exports[`Storyshots atoms/Button with container 1`] = `
+.c1 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+.c0 {
+  display: inline-block;
+  width: 100px;
+}
+
+<div
+  className="c0"
+>
+  <button
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#1884FF",
+        "borderColor": "#017AF5",
+      }
+    }
+    type="button"
+  >
+    button
+  </button>
+</div>
+`;
+
+exports[`Storyshots atoms/Button with japanese chars 1`] = `
+.c0 {
+  padding: 13px;
+  background: #017af5;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+}
+
+<button
+  className="c0"
+  disabled={false}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#1884FF",
+      "borderColor": "#017AF5",
+    }
+  }
+  type="button"
+>
+  ログイン
+</button>
+`;

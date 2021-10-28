@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots atoms/Label label 1`] = `
+.c0 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #555555;
+}
+
+<span
+  className="c0"
+>
+  Off-duty
+</span>
+`;
+
+exports[`Storyshots atoms/Label with custom style 1`] = `
+.c0 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #555555;
+}
+
+<span
+  className="c0"
+  style={
+    Object {
+      "fontSize": 50,
+      "fontWeight": "bold",
+    }
+  }
+>
+  Overridden font-size
+</span>
+`;
+
+exports[`Storyshots atoms/Label with japanese characters 1`] = `
+.c0 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #555555;
+}
+
+<span
+  className="c0"
+>
+  勤務外ss
+</span>
+`;

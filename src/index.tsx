@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import RootNavigator from './navigators/root/RootNavigator';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RootNavigator />
   </React.StrictMode>,
   document.getElementById('root')
 );
