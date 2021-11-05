@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots atoms/ScreenHeader with english text 1`] = `
+.c0 {
+  background-color: #1884ff;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    HOME
+  </span>
+</div>
+`;
+
+exports[`Storyshots atoms/ScreenHeader with japanese text 1`] = `
+.c0 {
+  background-color: #1884ff;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    ホーム
+  </span>
+</div>
+`;

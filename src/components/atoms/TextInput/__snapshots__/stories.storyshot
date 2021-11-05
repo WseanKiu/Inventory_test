@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots atoms/TextInput japanese placeholder 1`] = `
+.c0 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #d4dce6;
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.25);
+  border-radius: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+  display: block;
+  width: 100%;
+  height: 37px;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="ログイン"
+  type="text"
+/>
+`;
+
+exports[`Storyshots atoms/TextInput password 1`] = `
+.c0 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #d4dce6;
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.25);
+  border-radius: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+  display: block;
+  width: 100%;
+  height: 37px;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Password"
+  type="password"
+/>
+`;
+
+exports[`Storyshots atoms/TextInput text input 1`] = `
+.c0 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #d4dce6;
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.25);
+  border-radius: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+  display: block;
+  width: 100%;
+  height: 37px;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Employee Number"
+  type="text"
+/>
+`;
+
+exports[`Storyshots atoms/TextInput with container 1`] = `
+.c1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #d4dce6;
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.25);
+  border-radius: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+  display: block;
+  width: 100%;
+  height: 37px;
+}
+
+.c0 {
+  display: inline-block;
+  width: 100px;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    placeholder="ログイン"
+    type="text"
+  />
+</div>
+`;

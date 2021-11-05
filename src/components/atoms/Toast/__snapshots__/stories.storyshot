@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots atoms/Toast with english text 1`] = `null`;
+
+exports[`Storyshots atoms/Toast with japanese text 1`] = `null`;
